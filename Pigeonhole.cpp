@@ -23,7 +23,7 @@ void solve() {
                 idx--;
             }
             if(idx < 0) break;
-            t[idx]++;//
+            t[idx]++;
         }
     }
 }
