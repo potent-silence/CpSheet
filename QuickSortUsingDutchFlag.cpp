@@ -3,6 +3,7 @@
 pair<int,int> partition(vector<int> &arr,int low,int high){
     int mid1=low,mid2=low,ref=arr[low];//low,mid1,mid2,high(Structure of partition)
     
+    //3 partitions are created low-mid1(elements less than ref),mid1-mid2(elements equal to ref),mid2-high(elements greater than ref)
     while(mid2<=high){
         if(arr[mid2]==ref){
             mid2++;
